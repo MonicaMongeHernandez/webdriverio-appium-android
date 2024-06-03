@@ -14,18 +14,18 @@
 
 ## Description
 
-This testing suite was implemented for the automation Mobile Android applications, using WebdriverIO, Appium, Android Studio, Android Inspector, GitHub Actions with page object model (POM) design pattern and mocha as a test framework using javascript.
+This testing suite was implemented for the automation of Mobile Android applications, using WebdriverIO, Appium, Android Studio, Android Inspector, GitHub Actions with page object model (POM) design pattern and mocha as a test framework using javascript.
 
-### Video link
+### Videos
 
-In the following links, you can find a video of the executions the scenarios, results:
+In the following links, you can find the video related to the execution and results of each mobile application (apk):
 
 - [ApiDemos application](https://drive.google.com/file/d/1B5ZltcbEJc9--poy_yfFlwk2me6rzFq5/view?usp=sharing)
 - [Color Note application](https://drive.google.com/file/d/14_9ZHHPHHKoQhCA-9lVCxlz-gmsVRxe-/view?usp=sharing)
 
 ## Goal
 
-Validate native mobile applications with UI validations like scrolling, find elements using different ways to access the selectors, navigate in the menu, alert dialog modals, validate texts, type, environment variables to run specific apps, use packages and activities to move between screens, JSON to get apk, use hooks and specs paths according to console parameters, and demonstrate a good understanding of the framework and technologies.
+Validate native mobile applications with UI validations like scrolling, finding elements using different ways to access the selectors, navigating in the menu, alert dialog modals, validating texts, type, and environment variables to run specific apps, using packages and activities to move between screens, JSON to get apk, use hooks and specs paths according to console parameters, and demonstrate a good understanding of the framework and technologies.
 
 ## Technologies Versions
 
@@ -78,7 +78,7 @@ Note: The following test cases are as an overview. Consider that in a formal sce
 
 ### 2) Color Note application
 
-- <strong>General objective:</strong> use packages and activities to move between screens, skip screens, accept permision of the application to continue with the validations, perform actions with selectors/locators in the DOM, fill out data, like title of notes, and the text notes, click buttons, do scroll, perform save action, validate if the note was created and deleted, display elements, scroll, validate texts, using POM.
+- <strong>General objective:</strong> use packages and activities to move between screens, skip screens, accept permission of the application to continue with the validations, perform actions with selectors/locators in the DOM, fill out data, like the title of notes, and the text notes, click buttons, do scroll, perform save action, validate if the note was created and deleted, display elements, scroll, validate texts, using POM.
 
 - <strong>Dynamic parameters used</strong><br>
   In the file "wdio.config":<br>
@@ -89,7 +89,7 @@ Note: The following test cases are as an overview. Consider that in a formal sce
 
 1. Skip the tutorial.
 2. Add note(type title, notes, save note, edit ).
-3. Delete Note (Skip tutorial, Add note, navigate screens and menus).
+3. Delete Note (Skip tutorial, Add notes, navigate screens and menus).
 
 ## Installation
 
