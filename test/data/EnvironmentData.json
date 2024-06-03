@@ -1,0 +1,16 @@
+{
+  "apps": {
+    "demo": "app/android/ApiDemos-debug.apk",
+    "notes": "app/android/ColorNote+Notepad.apk"
+  },
+  "paths": [
+    {
+      "app": "demo",
+      "path": "./test/specs/*.spec.js"
+    },
+    {
+      "app": "notes",
+      "path": "./test/specs/android/*.spec.js"
+    }
+  ]
+}

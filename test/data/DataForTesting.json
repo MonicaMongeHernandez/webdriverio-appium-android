@@ -1,0 +1,15 @@
+{
+  "demo": {
+    "titleDemo": "API Demos",
+    "oneOptionText": "You selected: 1 , Command two",
+    "country": "Italy",
+    "alertText": "Lorem ipsum dolor sit aie consectetur adi",
+    "securitySurfaceOption": "Secure Surfaces"       
+  },
+  "notes": {
+    "titleAddNote": "Title Appium'",
+    "noteAddText": "Adding\nAppium\nNotes",
+    "titleTVNote": "TV shows",
+    "noteShows": "Frienda\nRome\nParadise"    
+  }
+}
